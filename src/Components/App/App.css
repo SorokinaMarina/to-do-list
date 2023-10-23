@@ -1,0 +1,21 @@
+.app {
+  width: 100%;
+  min-height: 720px;
+  padding: 74px 0 121px;
+  margin: 0 auto;
+  border-radius: 65px;
+  background-color: #38404B;
+  position: relative;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  color: #94ADCF;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

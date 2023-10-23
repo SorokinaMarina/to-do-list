@@ -1,0 +1,32 @@
+.tasks-list {
+    width: 100%;
+    padding: 101px 0 0;
+}
+
+.tasks-list__container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(35%, 1fr));
+    grid-auto-rows: repeat(auto-fit);
+    gap: 52px 129px;
+}
+
+.tasks-list__title {
+    font-size: 28px;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    padding: 52px 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .tasks-list__container {
+        width: 449px;
+        grid-template-columns: repeat(1, minmax(100%, 1fr));
+    }
+
+    .tasks-list__title {
+        text-align: center;
+    }
+}
