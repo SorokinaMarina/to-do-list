@@ -1,9 +1,9 @@
 .burger {
     width: 40px;
     height: 29px;
-    position: absolute;
+    /* position: absolute;
     top: 95px;
-    right: 87px;
+    right: 87px; */
 }
 
 .burger__button {

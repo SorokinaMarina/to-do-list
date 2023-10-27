@@ -1,8 +1,8 @@
 .task {
     width: 100%;
-    min-height: 59px;
     box-shadow: 5px 5px 13px 0px rgba(48, 54, 64, 0.90), -5px -5px 10px 0px rgba(64, 74, 86, 0.90), 5px -5px 10px 0px rgba(48, 54, 64, 0.20), -5px 5px 10px 0px rgba(48, 54, 64, 0.20), -1px -1px 2px 0px rgba(48, 54, 64, 0.50) inset, 1px 1px 2px 0px rgba(64, 74, 86, 0.30) inset;
     border-radius: 16px;
+    padding: 19px 0;
 }
 
 .task__container {
@@ -11,14 +11,14 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .task__container-element {
     width: 97%;
     display: flex;
     margin: 0;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 27px;
 }
 
@@ -48,4 +48,24 @@
 
 .task__button:hover {
     opacity: .7;
+}
+
+@media screen and (max-width: 620px) {
+
+    .task {
+        padding: 12px 0;
+    }
+
+    .task__img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .task__container {
+        width: 94%;
+    }
+
+    .task__container-element {
+        column-gap: 9px;
+    }
 }

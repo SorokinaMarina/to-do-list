@@ -1,6 +1,7 @@
 .tasks-list {
     width: 100%;
     padding: 101px 0 0;
+    min-height: 59px;
 }
 
 .tasks-list__container {
@@ -14,19 +15,64 @@
 
 .tasks-list__title {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 500;
     width: 80%;
     margin: 0 auto;
     padding: 52px 0;
 }
 
-@media screen and (max-width: 1080px) {
+.tasks-list__button {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
     .tasks-list__container {
-        width: 449px;
-        grid-template-columns: repeat(1, minmax(100%, 1fr));
+        width: 86%;
+        grid: none;
     }
 
     .tasks-list__title {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .tasks-list {
+        padding-top: 70px;
+        min-height: 42px;
+    }
+
+    .tasks-list__container {
+        width: 85%;
+        row-gap: 25px;
+    }
+
+    .tasks-list__title {
+        width: 88%;
+        font-size: 16px;
+        text-align: start;
+        padding-bottom: 30px;
+    }
+
+    .tasks-list__button {
+        display: block;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        bottom: 64px;
+        right: 31px;
+        background-image: url('../../image/Add.svg');
+        background-position: cover;
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .tasks-list__button:hover {
+        opacity: .7;
     }
 }

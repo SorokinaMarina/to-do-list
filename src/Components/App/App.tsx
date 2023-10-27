@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import Input from '../Input/Input';
-import Burger from '../Burger/Burger';
-import TasksList from '../TasksList/TasksList';
+import { Routes, Route} from 'react-router-dom';
+import Main from '../Main/Main';
 
 function App (): JSX.Element {
   return (
     <div className="app">
-      <Input />
-      <Burger />
-      <TasksList />
+      <Routes>
+        <Route path='/' element={<Main />} />
+      </Routes>
     </div>
   );
 }

@@ -19,9 +19,9 @@ function TasksList (): JSX.Element {
                 <ComplitedTask />
                 <ComplitedTask />
                 <ComplitedTask />
-                <ComplitedTask />
-                <ComplitedTask />
             </div>
+
+            <button className="tasks-list__button" type='button'></button>
         </section>
     )
 }

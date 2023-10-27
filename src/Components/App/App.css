@@ -18,4 +18,13 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  position: relative;
+}
+
+
+@media screen and (max-width: 620px) {
+  .app {
+    padding-top: 57px;
+    min-height: 844px;
+  }
 }
