@@ -1,6 +1,7 @@
 .app {
   width: 100%;
   min-height: 720px;
+  height: 100vh;
   padding: 74px 0 121px;
   margin: 0 auto;
   border-radius: 65px;

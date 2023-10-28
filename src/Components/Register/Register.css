@@ -1,0 +1,52 @@
+.register {
+    width: 350px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.register__fieldset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.register__label {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.register__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    min-height: 25px;
+    margin: 0 0 5px;
+    color: #fff;
+}
+
+.register__input_error {
+    color: #ff4062;
+}
+
+.register__input::placeholder {
+    color: #94ADCF;
+    font-size: 14px;
+    opacity: .7;
+}
+
+.register__span {
+    color: #ff4062;
+    font-size: 10px;
+    min-height: 14px;
+}
+
+@media screen and (max-width: 500px) {
+    .register {
+        width: 85%;
+    }
+}
