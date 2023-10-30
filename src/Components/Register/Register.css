@@ -27,6 +27,8 @@
     min-height: 25px;
     margin: 0 0 5px;
     color: #fff;
+    padding: 0;
+    font-size: 14px;
 }
 
 .register__input_error {
